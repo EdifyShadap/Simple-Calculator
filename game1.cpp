@@ -33,7 +33,7 @@ void guessinggame::start()
       {
 	      cout<<"Too cold!! Try again\n"<<endl;
       }
-      else
+      else if(guessno>random)
       {
               cout<<"Too Hot!! Try again\n"<<endl;
       }
